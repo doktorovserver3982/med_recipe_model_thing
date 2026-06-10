@@ -1,0 +1,13 @@
+faker
+
+python-docx
+
+pillow
+
+opencv-python
+
+albumentations
+
+numpy
+
+pymupdf
