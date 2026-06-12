@@ -9,7 +9,7 @@ from config import TEST_RATIO
 
 def prepare_dataset():
 
-    dataset = Path("dataset")
+    dataset = Path("images")
 
     train_dir = dataset / "images" / "train"
 

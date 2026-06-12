@@ -2,6 +2,5 @@ ultralytics
 opencv-python
 numpy
 pillow
-huggingface_hub
 paddlepaddle
 paddleocr

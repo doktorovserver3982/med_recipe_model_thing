@@ -8,16 +8,20 @@ test: images/test
 
 names:
 
-  0: patient_name
 
-  1: birth_date
 
-  2: doctor_name
+  0: month
 
-  3: medicine
+  1: patient_name
 
-  4: form
+  2: birth_date
 
-  5: dosage
+  3: doctor_name
 
-  6: days
+  4: medicine
+
+  5: form
+
+  6: dosage
+
+  7: days

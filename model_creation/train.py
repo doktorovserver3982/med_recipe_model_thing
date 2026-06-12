@@ -3,13 +3,11 @@ import sys
 from ultralytics import YOLO
 
 from config import *
-from prepare_dataset import prepare_dataset
 from experiments import EXPERIMENTS
-from download_dataset import download_dataset
-
 def train(experiment_name):
-    download_dataset()
-    prepare_dataset()
+    #download_dataset()
+    #prepare_dataset()
+    #fix_warning()
     cfg = EXPERIMENTS[experiment_name]
 
     model = YOLO(cfg["model"])
