@@ -14,7 +14,7 @@ import time
 from datetime import datetime
 
 # Add current directory to path
-sys.path.append(str(Path.cwd()))
+
 
 
 def setup_environment(gpu_id, experiment_name):

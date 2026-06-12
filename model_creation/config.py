@@ -7,7 +7,8 @@ WORK_DIR = Path.cwd()
 # ==========================
 # Dataset
 # ==========================
-DATASET = str(WORK_DIR / "data.yaml")  # Full path
+DATASET_DIR = Path(f"/kaggle/input/datasets/ohoohooo/med-recipe-dataset-form-107-1/images")
+DATASET = str(DATASET_DIR / "data.yaml")  # Full path
 TRAIN_RATIO = 0.7
 VAL_RATIO = 0.2
 TEST_RATIO = 0.1
@@ -39,5 +40,4 @@ OCR_LANGUAGE = "ru"
 OCR_USE_ANGLE = True
 
 # Dataset
-DATASET_DIR = str(WORK_DIR / "dataset")
 DATASET_REPO = "wuht0s1swuh/medical_recipe_dataset"
