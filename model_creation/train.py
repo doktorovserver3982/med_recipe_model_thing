@@ -52,7 +52,8 @@ def train(experiment_name):
 
         device=DEVICE,
 
-        verbose=VERBOSE
+        verbose=VERBOSE,
+        cache=False
 
     )
     from evaluate import evaluate
