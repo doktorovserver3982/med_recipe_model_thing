@@ -155,7 +155,7 @@ def main():
     print(f"\n🚀 Starting final experiment: {final_experiment} on GPU 0")
     print("-" * 60)
 
-    final_success=run_sequential_experiment(final_experiment, gpu_id=0)
+    final_success=run_sequential_experiment(final_experiment, gpu_id=-1)
 
     # Final summary
     print("\n" + "=" * 60)
