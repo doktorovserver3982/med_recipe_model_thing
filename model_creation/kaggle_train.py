@@ -130,8 +130,8 @@ def main():
     # Define your experiments with GPU assignments
     # First batch: Run baseline and highres in parallel
     parallel_batch_1=[
-        ("baseline", 0),  # baseline on GPU 0 (1280px, batch=8)
-        ("highres", 1),  # highres on GPU 1 (2048px, batch=4)
+        ("baseline", -1),  # baseline on GPU 0 (1280px, batch=8)
+        ("highres", -1),  # highres on GPU 1 (2048px, batch=4)
     ]
 
     # Second batch: Run highres_nomosaic alone (since only 2 GPUs)
